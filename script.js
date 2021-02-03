@@ -4,7 +4,7 @@ var b = +prompt('Введите степень');
 if (isNaN(b) || b == 0) {
     b = 2
 }
-
+let s = 1
 for (let i = 0; i < b; i++) {
     s = s * a
 }
